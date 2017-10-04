@@ -10,7 +10,14 @@ Data is imediatelly written into your normal Mongo database plus it is sent as a
 
 ## Usage
 
-**Add this to your Meteor `settings.json`:**
+**Add this package to your Meteor application:**
+
+```
+meteor npm install --save meteor-bigchain-collection
+```
+
+
+**Add following to your Meteor `settings.json`:**
 
 ```
 {
@@ -27,6 +34,13 @@ Data is imediatelly written into your normal Mongo database plus it is sent as a
 ```
 const MyCollection = new BigchainCollection("my_collection");
 ```
+
+**Don't forget to start your application with settings.json**
+
+```
+meteor --settings settings.json
+```
+
 
 **And use collection as you normally do:**
 
