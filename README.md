@@ -8,7 +8,7 @@ Extends Mongo.Collection, writes data to BigchainDB
 Data is imediatelly written into your normal Mongo database plus it is sent as an transaction to BigchainDB. After transaction is confirmed by bigchain, document is updated with transaction ID and status is changed from "pending" to "ok".
 
 
-##Usage
+## Usage
 
 **Add this to your Meteor `settings.json`:**
 
@@ -44,6 +44,6 @@ console.log(MyCollection.find({}).fetch());
 - `_transactionStatus` - Initially it is `"pending"` and changes to `"ok"` after transaction is confirmed.
 
 
-That all folks (for now).
+**That all folks (for now).**
 
 Cheers!
