@@ -53,7 +53,7 @@ console.log(MyCollection.find({}).fetch());
 ```
 
 
-**You'll notice two fields in your document:**
+**You'll notice two additional fields in your document:**
 
 - `_transactionId` - BigchainDB transaction ID. Initially it is null until transaction is confirmed.
 
