@@ -1,10 +1,12 @@
 {
   "name": "meteor-bigchain-collection",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Extends Mongo.Collection, writes data to BigchainDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel source --presets babel-preset-es2015 --out-dir ./",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

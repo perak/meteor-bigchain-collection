@@ -32,6 +32,8 @@ meteor npm install --save meteor-bigchain-collection
 **Define collection in your application:**
 
 ```
+import {BigchainCollection} from "meteor-bigchain-collection";
+
 const MyCollection = new BigchainCollection("my_collection");
 ```
 
