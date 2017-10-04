@@ -1,0 +1,28 @@
+{
+  "name": "meteor-bigchain-collection",
+  "version": "1.0.0",
+  "description": "Extends Mongo.Collection, writes data to BigchainDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perak/meteor-bigchain-collection.git"
+  },
+  "keywords": [
+    "meteor",
+    "bigchaindb",
+    "blockchain",
+    "mongo"
+  ],
+  "author": "Petar Korponaić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perak/meteor-bigchain-collection/issues"
+  },
+  "homepage": "https://github.com/perak/meteor-bigchain-collection#readme",
+  "dependencies": {
+    "bigchaindb-driver": "git+https://github.com/Integration-Alpha/js-bigchaindb-driver.git"
+  }
+}
