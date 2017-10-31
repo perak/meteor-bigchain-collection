@@ -1,6 +1,6 @@
 {
   "name": "meteor-bigchain-collection",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Extends Mongo.Collection, writes data to BigchainDB",
   "main": "index.js",
   "scripts": {
