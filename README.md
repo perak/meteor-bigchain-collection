@@ -28,7 +28,18 @@ meteor npm install --save meteor-bigchain-collection
 	}
 }
 ```
-
+or
+```
+{
+	"bigchain": {
+		"url": "https://test.ipdb.io/api/v1/",
+		"publicKey": "HyBFv87h28JuVE1vT3f1EWBadnza7gg2pG298LWnhy2P",
+		"privateKey": "6KWcJUaf3mAd3yEoxyAfECxeCKYrL4ZEq2e7GDEW4kEQ"
+		"app_id": "asdf",
+        "app_key":"asdfasdf"
+	}
+}
+```
 **Define collection in your application:**
 
 ```
