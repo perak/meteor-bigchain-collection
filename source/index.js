@@ -14,7 +14,7 @@ export class BigchainCollection extends Mongo.Collection {
 		if(Meteor.isServer) {
 			settings = settings || Meteor.settings.bigchain || { url: "", publicKey: "", privateKey: "" };
 			driver = driver || require('bigchaindb-driver');
-			if(settings.app_id || settings.app_key)
+			if(settings.app_id && settings.app_key)
 			{
                 conn = conn || new driver.Connection(settings.url, headers={
                     app_id: settings.app_id,

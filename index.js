@@ -35,7 +35,7 @@ var BigchainCollection = exports.BigchainCollection = function (_Mongo$Collectio
 			if (Meteor.isServer) {
 				settings = settings || Meteor.settings.bigchain || { url: "", publicKey: "", privateKey: "" };
 				driver = driver || require('bigchaindb-driver');
-                if(settings.app_id || settings.app_key)
+                if(settings.app_id && settings.app_key)
                 {
                     conn = conn || new driver.Connection(settings.url, {
                         app_id: settings.app_id,
